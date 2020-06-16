@@ -6,3 +6,5 @@ Vue.config.productionTip = false
 new Vue({
   render: h => h(App),
 }).$mount('#app')
+
+//.$mount('#app')  等价于 el: '#app' 
